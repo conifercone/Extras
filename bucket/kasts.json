@@ -1,12 +1,12 @@
 {
-    "version": "25.04-3869",
+    "version": "25.04-3898",
     "description": "Convergent podcast application",
     "homepage": "https://apps.kde.org/kasts/",
     "license": "LGPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/multimedia/kasts/release-25.04/windows/kasts-release_25.04-3869-windows-cl-msvc2022-x86_64.7z",
-            "hash": "38334df75a18334f9acfd65374268150ff01f4de3969d1a3bafbdbe1b3adf821"
+            "url": "https://cdn.kde.org/ci-builds/multimedia/kasts/release-25.04/windows/kasts-release_25.04-3898-windows-cl-msvc2022-x86_64.7z",
+            "hash": "c48aeb3f1271511a0f30b69744774bd2313a66da4834185effc5a5b63d6114e6"
         }
     },
     "bin": "bin\\kasts.exe",

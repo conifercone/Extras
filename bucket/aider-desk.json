@@ -1,12 +1,12 @@
 {
-    "version": "0.16.1",
+    "version": "0.20.0",
     "description": "Desktop application for Aider AI assistant",
     "homepage": "https://github.com/hotovo/aider-desk",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hotovo/aider-desk/releases/download/v0.16.1/aider-desk-0.16.1-setup.exe#/dl.7z",
-            "hash": "sha512:2cbf27cbd18a6f568016250265b376ce2db874ece0bef52ae74bd9f23cce5a27cf850609c0959d8407ea2f6a92b5b40c7a783c2007a33676e0b98ab082970535",
+            "url": "https://github.com/hotovo/aider-desk/releases/download/v0.20.0/aider-desk-0.20.0-setup.exe#/dl.7z",
+            "hash": "sha512:32b68fba990276688cd28d78bbf5954e3289847214fe564648b9d3841af56d630532ea1a5a9a18677c178e69029b1b3b99ae2f5b2d0aca76dd8a801fc3be7f21",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Recurse"

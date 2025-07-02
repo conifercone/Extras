@@ -1,20 +1,20 @@
 {
-    "version": "1.4.1",
+    "version": "1.4.7",
     "description": "A desktop client that supports for multiple LLM providers.",
     "homepage": "https://cherry-ai.com",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.4.1/Cherry-Studio-1.4.1-x64-setup.exe#/dl.7z",
-            "hash": "sha512:054d60b5073f7553b86542262320c6bfbcbaf86b13a62dbc425b6da08ae5f67731e756b6ca973de13e30637931dc0ac3144118e0aa5ea04a48fe35d25f838e97",
+            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.4.7/Cherry-Studio-1.4.7-x64-setup.exe#/dl.7z",
+            "hash": "sha512:55a797e58dee9019a34132cba50b0c5fdc0bbaf1c62e084145560b5e8fba1809fa23cb873c238d023ba5e0ef8c7904f44f8bf9a20295b835352437cf18cbf885",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Unintall*\" -Recurse"
             ]
         },
         "arm64": {
-            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.4.1/Cherry-Studio-1.4.1-arm64-setup.exe#/dl.7z",
-            "hash": "a0dac2d635a40ce9abd9e4382d7c26c21156af242402353a37ff40c98a5dd792",
+            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.4.7/Cherry-Studio-1.4.7-arm64-setup.exe#/dl.7z",
+            "hash": "bcb47c4c5c882df40d05db51f390406c277367606210a39bdae5ea1cf0cbe5c7",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Unintall*\" -Recurse"

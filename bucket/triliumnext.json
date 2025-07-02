@@ -1,16 +1,16 @@
 {
-    "version": "0.94.0",
+    "version": "0.95.0",
     "description": "Build your personal knowledge base with TriliumNext Notes",
     "homepage": "https://github.com/TriliumNext/Notes",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TriliumNext/Notes/releases/download/v0.94.0/TriliumNextNotes-v0.94.0-windows-x64.zip",
-            "hash": "3926ba176169c6fdb40d3042e8e8316c373c160fc89077bdbf5d847f5317bbf1"
+            "url": "https://github.com/TriliumNext/Notes/releases/download/v0.95.0/TriliumNextNotes-v0.95.0-windows-x64.zip",
+            "hash": "f165d591c935c52ed13d6cdd47dcd911bb4caf934d0518237640a050d8d2ea54"
         },
         "arm64": {
-            "url": "https://github.com/TriliumNext/Notes/releases/download/v0.94.0/TriliumNextNotes-v0.94.0-windows-arm64.zip",
-            "hash": "cd9421d87ed24e8053a4a960ac3ccb44dc9006d3cc23d5cdcf511992f6af29e0"
+            "url": "https://github.com/TriliumNext/Notes/releases/download/v0.95.0/TriliumNextNotes-v0.95.0-windows-arm64.zip",
+            "hash": "aead63cb3cf2be088e65a81940e06c07e0136d5dc83fac7dbcb6116ee6e50321"
         }
     },
     "shortcuts": [
