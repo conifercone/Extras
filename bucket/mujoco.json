@@ -1,12 +1,12 @@
 {
-    "version": "3.3.3",
+    "version": "3.3.5",
     "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
     "homepage": "https://mujoco.org/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/google-deepmind/mujoco/releases/download/3.3.3/mujoco-3.3.3-windows-x86_64.zip",
-            "hash": "364824cdf336d30a86d07b76ba30c7f567eb5ef4d8b226342c9d8ae266639b9e"
+            "url": "https://github.com/google-deepmind/mujoco/releases/download/3.3.5/mujoco-3.3.5-windows-x86_64.zip",
+            "hash": "98ebfbf39e35ec81e145e9cfcd4a086ffedf247e9085b875c2f4681d362c0932"
         }
     },
     "bin": "bin\\simulate.exe",

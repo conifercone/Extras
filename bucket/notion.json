@@ -1,5 +1,5 @@
 {
-    "version": "4.14.0",
+    "version": "4.18.1",
     "description": "Collaborative note taking",
     "homepage": "https://www.notion.so/",
     "license": {
@@ -8,14 +8,20 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://desktop-release.notion-static.com/Notion%20Setup%204.14.0.exe#/dl.7z",
-            "hash": "sha512:a7aedf0507c256312ef56b65295a09bdc7ef8e34ea9ba03f53fec8795d222d65529f0b99623ee833788de884c205d302b18ed2e3c37d0a535cb7f410f662cadc",
-            "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$*\" -Recurse"
-            ]
+            "url": "https://desktop-release.notion-static.com/Notion%20Setup%204.18.1.exe#/dl.7z",
+            "hash": "sha512:e802f0a10cb9d56b725d75feea21e3ef6452615e70b8eaaf68690d6ba76bdfe3c65db71dfb50a3e65ae34388593353b748997ef03c8cd34352af4710c56af4ff"
         }
     },
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\`$*\" -Recurse",
+        "# Disable auto-updates:",
+        "$yaml = \"$dir\\resources\\app-update.yml\"",
+        "$content = Get-Content $yaml | Foreach-Object {",
+        "  if ($_.StartsWith('url')) { \"$($_.Replace('url', '# url')) # Disabled by Scoop\" } else { $_ }",
+        "}",
+        "Set-Content $yaml -Value $content -Encoding ascii"
+    ],
     "shortcuts": [
         [
             "Notion.exe",

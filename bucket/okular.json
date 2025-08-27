@@ -1,13 +1,13 @@
 {
-    "version": "25.04-6350",
+    "version": "25.08-6660",
     "description": "Universal document viewer",
     "homepage": "https://okular.kde.org",
     "license": "LGPL-2.0-only",
     "notes": "If you want to get the latest development branch-based installer, please install `okular-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/graphics/okular/release-25.04/windows/okular-release_25.04-6350-windows-cl-msvc2022-x86_64.7z",
-            "hash": "ea1a99d5f10f950b180588c9ed7cb94d9a7cc55ee9b083f83e2eb56b9b8ebe7a"
+            "url": "https://cdn.kde.org/ci-builds/graphics/okular/release-25.08/windows/okular-release_25.08-6660-windows-cl-msvc2022-x86_64.7z",
+            "hash": "d69422f02e1251b580a232735373f1075e268a5dec0a2d6a0d4bed54074025ae"
         }
     },
     "bin": "bin\\okular.exe",
@@ -18,7 +18,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://cdn.kde.org/ci-builds/graphics/okular/release-25.04/windows/",
+        "url": "https://cdn.kde.org/ci-builds/graphics/okular/release-25.08/windows/",
         "regex": "okular-release_([\\d.-]+)-windows-cl-(?<lib>\\w+)-x86_64\\.7z"
     },
     "autoupdate": {

@@ -1,12 +1,12 @@
 {
-    "version": "8.4.2",
+    "version": "8.5.2",
     "description": "Visualizer for deep learning and machine learning models",
     "homepage": "https://netron.app/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lutzroeder/netron/releases/download/v8.4.2/Netron-Setup-8.4.2.exe#/dl.7z",
-            "hash": "sha512:60e121ebd61bff56cb07e1ca1d9a4d0f6d0d4f06c40e2a460e8ecc46477a30f7c874825f3a707763c4582ac4d7d3e0f1a4b9856fdb1c059eabb1b994be9328e0",
+            "url": "https://github.com/lutzroeder/netron/releases/download/v8.5.2/Netron-Setup-8.5.2.exe#/dl.7z",
+            "hash": "sha512:14ef364a0e75ea6b50a6bab37c7c2e102d07cff15842401599efa09b92ef1dfac9da1bace0a461bd8f7cbc04271be6222fb6ab31e3d0e8e52db2b08b2cb056e0",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Force -Recurse"

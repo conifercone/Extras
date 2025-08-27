@@ -1,5 +1,5 @@
 {
-    "version": "10.6.0.396",
+    "version": "10.7.1.389",
     "description": "A small, fast, and feature-rich PDF viewer/editor.",
     "homepage": "https://www.pdf-xchange.com/product/pdf-xchange-editor",
     "license": {
@@ -9,11 +9,11 @@
     "architecture": {
         "64bit": {
             "url": "https://www.pdf-xchange.com/downloads/PDFXEdit10_Portable_x64.zip",
-            "hash": "d08e3bc16570e3678c895ee47cb90fa48155f90ec7db8f189df508dd213012cd"
+            "hash": "b17050c2f4098dbb1ff72f7e614dad6edbb9cf37427ade269f43647ff4f901cb"
         },
         "32bit": {
             "url": "https://www.pdf-xchange.com/downloads/PDFXEdit10_Portable_x86.zip",
-            "hash": "5bc411e7dacc406853cae1ce0fbd4ea0d7e920d60fd54e749c4f4ade45356694"
+            "hash": "a4e68cce844a78edd9ec65d6fb0105d6d099385e4e517291a0537c43aa733b83"
         }
     },
     "persist": [

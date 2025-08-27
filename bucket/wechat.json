@@ -1,5 +1,5 @@
 {
-    "version": "4.0.6.13",
+    "version": "4.1.0.21",
     "description": "Free messaging and calling app by Tencent",
     "homepage": "https://www.wechat.com/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cscnk52/wechat-windows-versions/releases/download/v4.0.6.13/weixin_4.0.6.13.exe#/dl.7z",
-            "hash": "4257134c41e5bccc1c5b3eed30caab0139b5746a18504bb2a0ca9c3effebbeca"
+            "url": "https://github.com/cscnk52/wechat-windows-versions/releases/download/v4.1.0.21/weixin_4.1.0.21.exe#/dl.7z",
+            "hash": "c44e50e5d05d89cddb70893e5687db1691c042ec7ed6879eb708826160cc13f0"
         }
     },
     "installer": {

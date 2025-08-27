@@ -1,7 +1,7 @@
 {
-    "version": "140.0.2",
+    "version": "142.0",
     "description": "Popular open source web browser.",
-    "homepage": "https://www.mozilla.org/firefox/",
+    "homepage": "https://www.firefox.com/",
     "license": "MPL-2.0",
     "notes": [
         "To set profile 'Scoop' as *DEFAULT*, or profiles/settings was lost after update:",
@@ -11,16 +11,16 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/140.0.2/win64/en-US/Firefox%20Setup%20140.0.2.exe#/dl.7z",
-            "hash": "sha512:2789a5b9e001aa33affbd76a31b9ebd74401db1bce3cc0093d6f58062730663cb54768da3bf9cca5ebb1412763a6913226a7ec8627198b236af65220664f60f3"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/142.0/win64/en-US/Firefox%20Setup%20142.0.exe#/dl.7z",
+            "hash": "sha512:3dd31dd91d4ca91fc9ae61e444387d1ecb9ce557432a0fc296a9861f43c8193055b0ce10d49ad44fd28bf4df456104468d2ca41ace5435eddbd691a14fe8b68c"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/140.0.2/win32/en-US/Firefox%20Setup%20140.0.2.exe#/dl.7z",
-            "hash": "sha512:88692ed1e78951efd87e7f931e61ab4b847cb1cc324b59c17c05925c620c79fbdd827b50cb072046da3e21621e908daa4306d97e4fc7c954b32d01177ee16524"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/142.0/win32/en-US/Firefox%20Setup%20142.0.exe#/dl.7z",
+            "hash": "sha512:e5dc475211201da87aef9e8da0f9d4fa838dbf3c7cf5a244bcb27aa2af6caf7abfe845de0ec3aa2b3fb5659a5945ff8cc989e40fe93e7c44503282e12e82d6a3"
         },
         "arm64": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/140.0.2/win64-aarch64/en-US/Firefox%20Setup%20140.0.2.exe#/dl.7z",
-            "hash": "sha512:0b7e5e25361e43f5fb27d1390d4b00d1ce092b4d19bf593fcace1083e29cc251015f4b7ca9f698625fff42b245ba2257959f8bf0093779a9b6db504479bde7b5"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/142.0/win64-aarch64/en-US/Firefox%20Setup%20142.0.exe#/dl.7z",
+            "hash": "sha512:d5c91ef83a5ee9ef0decabb1852501de46b3509f9b9d571fdd9398caa74015ecd5719176c814047294ec253f900633141b4f1f20af4f37fc0752f8295d21881b"
         }
     },
     "extract_dir": "core",

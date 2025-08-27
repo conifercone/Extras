@@ -1,12 +1,12 @@
 {
-    "version": "1.7.6",
+    "version": "1.8.0",
     "description": "A highly configurable Windows status bar written in Python",
     "homepage": "https://github.com/amnweb/yasb",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/amnweb/yasb/releases/download/v1.7.6/yasb-1.7.6-win64.msi",
-            "hash": "c421dfca5c47e8ca808317803caaa87840e5065916d402659530a0880702048a"
+            "url": "https://github.com/amnweb/yasb/releases/download/v1.8.0/yasb-1.8.0-win64.msi",
+            "hash": "80c63c752cf74908953a03b83628b47e6d1367cd3fe74d510574632463a4e3bf"
         }
     },
     "bin": [

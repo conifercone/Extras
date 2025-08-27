@@ -1,12 +1,12 @@
 {
-    "version": "3.0.1",
+    "version": "3.0.3",
     "description": "Open source program for drawing and image editing.",
     "homepage": "https://www.pinta-project.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PintaProject/Pinta/releases/download/3.0.1/Pinta.exe#/Pinta-dl.exe",
-            "hash": "ce1a7b54bab6eb02c9ba7674ed92c258675a04c290ae9301eca84f98dc5026f4"
+            "url": "https://github.com/PintaProject/Pinta/releases/download/3.0.3/Pinta.exe#/Pinta-dl.exe",
+            "hash": "477a60ad65b4e66f383f36d489712892a230fe256914d182f2151ad9d7895434"
         }
     },
     "innosetup": true,

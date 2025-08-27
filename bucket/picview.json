@@ -1,18 +1,18 @@
 {
-    "version": "3.1.4",
+    "version": "3.2",
     "description": "A fast, free and fully customizable image viewer for Windows 10 and 11",
     "homepage": "https://picview.org",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Ruben2776/PicView/releases/download/3.1.4/PicView-v3.1.4-win-x64.zip",
-            "hash": "fa7201523344d6eb7ec521c0978957ae3414d58bdf10277d51e9baa2776324ab",
-            "extract_dir": "PicView-v3.1.4-win-x64"
+            "url": "https://github.com/Ruben2776/PicView/releases/download/3.2/PicView-v3.2-win-x64.zip",
+            "hash": "78526f4d07cd3af8e2515622fc40684dce0af92f09aff6cbd7e0f13ab2574eca",
+            "extract_dir": "PicView-v3.2-win-x64"
         },
         "arm64": {
-            "url": "https://github.com/Ruben2776/PicView/releases/download/3.1.4/PicView-v3.1.4-win-arm64.zip",
-            "hash": "e2e0949d7589ea352e9a76ccf5330e194c24177fab1536a94519a6cad7781777",
-            "extract_dir": "PicView-v3.1.4-win-arm64"
+            "url": "https://github.com/Ruben2776/PicView/releases/download/3.2/PicView-v3.2-win-arm64.zip",
+            "hash": "28d4841e9ca51e8fcc4f2df91ab50d513698519deec7c4a0737dfcae2c5d9b56",
+            "extract_dir": "PicView-v3.2-win-arm64"
         }
     },
     "post_install": [

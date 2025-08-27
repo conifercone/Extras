@@ -1,12 +1,12 @@
 {
-    "version": "1.6.4",
+    "version": "1.6.10",
     "description": "A download manager that speeds up your downloads",
     "homepage": "https://abdownloadmanager.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/amir1376/ab-download-manager/releases/download/v1.6.4/ABDownloadManager_1.6.4_windows_x64.zip",
-            "hash": "md5:553d22dcd131f2e97faabf1abd802a19"
+            "url": "https://github.com/amir1376/ab-download-manager/releases/download/v1.6.10/ABDownloadManager_1.6.10_windows_x64.zip",
+            "hash": "md5:f5e84d6c55987602decbd436380d2690"
         }
     },
     "extract_dir": "ABDownloadManager",

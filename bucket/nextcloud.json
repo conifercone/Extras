@@ -1,5 +1,5 @@
 {
-    "version": "3.16.6",
+    "version": "3.17.1",
     "description": "Desktop sync client for Nextcloud, a self-hosted productivity platform",
     "homepage": "https://nextcloud.com/",
     "license": "GPL-2.0-or-later",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nextcloud-releases/desktop/releases/download/v3.16.6/Nextcloud-3.16.6-x64.msi",
-            "hash": "f3571e9321305385c6ea098e12d01f4c0465276771458bbecfe92fb271a0b3c2"
+            "url": "https://github.com/nextcloud-releases/desktop/releases/download/v3.17.1/Nextcloud-3.17.1-x64.msi",
+            "hash": "e68645a441b4bd730fba693e44b4fb958324eb42c6b2930b02d2a6d3a8a73a6c"
         }
     },
     "extract_dir": "PFiles\\Nextcloud",

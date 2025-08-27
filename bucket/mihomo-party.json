@@ -1,20 +1,20 @@
 {
-    "version": "1.7.6",
+    "version": "1.8.5",
     "description": "Another Mihomo GUI.",
     "homepage": "https://mihomo.party",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mihomo-party-org/mihomo-party/releases/download/v1.7.6/mihomo-party-windows-1.7.6-x64-portable.7z",
-            "hash": "47f94650ef83153b9edd7fe57df56b20456002065e8ae97fbc95ae98b44eb244"
+            "url": "https://github.com/mihomo-party-org/mihomo-party/releases/download/v1.8.5/mihomo-party-windows-1.8.5-x64-portable.7z",
+            "hash": "069bc209008830b5c250fe0a5e1d45bdb92b47d2f6b59c0fe290c403bc9b42e1"
         },
         "32bit": {
-            "url": "https://github.com/mihomo-party-org/mihomo-party/releases/download/v1.7.6/mihomo-party-windows-1.7.6-ia32-portable.7z",
-            "hash": "28a57a655d69429b058d6cb9d3bd4699cba4203f0ae5b39c80b526cdb68b9862"
+            "url": "https://github.com/mihomo-party-org/mihomo-party/releases/download/v1.8.5/mihomo-party-windows-1.8.5-ia32-portable.7z",
+            "hash": "be55e46818af46061165bca6b80022d15790a8d2ee99d6f061b6c0f173d9abb1"
         },
         "arm64": {
-            "url": "https://github.com/mihomo-party-org/mihomo-party/releases/download/v1.7.6/mihomo-party-windows-1.7.6-arm64-portable.7z",
-            "hash": "f8a29fb10f4ba53a9f320c8a1269797e09f9ca16dc8ef20c13b382f9ad8ee1d0"
+            "url": "https://github.com/mihomo-party-org/mihomo-party/releases/download/v1.8.5/mihomo-party-windows-1.8.5-arm64-portable.7z",
+            "hash": "c0b5508459ffa2e870a1f77e72089153c19d4ae09f1f6460c4ad83826a26bf87"
         }
     },
     "persist": "data",

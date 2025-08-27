@@ -1,13 +1,13 @@
 {
-    "version": "25.04-1764",
+    "version": "25.08-1849",
     "description": "Disk usage visualizer",
     "homepage": "https://apps.kde.org/filelight",
     "license": "GPL-2.0-or-later",
     "notes": "If you want to get the latest development branch-based installer, please install `filelight-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/utilities/filelight/release-25.04/windows/filelight-release_25.04-1764-windows-cl-msvc2022-x86_64.7z",
-            "hash": "c838ebbec0bee30d683fc0f5d6f96a43cd8e75e72088aa61049d05eee1fb83b7"
+            "url": "https://cdn.kde.org/ci-builds/utilities/filelight/release-25.08/windows/filelight-release_25.08-1849-windows-cl-msvc2022-x86_64.7z",
+            "hash": "e806adce85d8653e6659f364442fa66a537fb8e2dbb5b0a5d609094d42320080"
         }
     },
     "bin": "bin\\filelight.exe",
@@ -18,7 +18,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://cdn.kde.org/ci-builds/utilities/filelight/release-25.04/windows/",
+        "url": "https://cdn.kde.org/ci-builds/utilities/filelight/release-25.08/windows/",
         "regex": "filelight-release_([\\d.-]+)-windows-cl-(?<lib>\\w+)-x86_64\\.7z"
     },
     "autoupdate": {

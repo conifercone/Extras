@@ -1,13 +1,13 @@
 {
-    "version": "1.2.2",
+    "version": "1.2.6",
     "description": "An image/comic viewer",
     "homepage": "https://kanryu.github.io/quickviewer/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kanryu/quickviewer/releases/download/v1.2.2/QuickViewer-portable-1.2.2-x64.zip",
-            "hash": "781a8483741a043d7f738f8ba5c8ac89654056b30fd7f3c24fcb2af984a7e180",
-            "extract_dir": "QuickViewer-portable-1.2.2-x64"
+            "url": "https://github.com/kanryu/quickviewer/releases/download/v1.2.6/QuickViewer-portable-1.2.6-x64.zip",
+            "hash": "3439df68637eae15ea6f501b665e23a00a6abb16dabd5cec07da4cefb6424499",
+            "extract_dir": "QuickViewer-portable-1.2.6-x64"
         }
     },
     "installer": {

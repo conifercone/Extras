@@ -1,5 +1,5 @@
 {
-    "version": "2025.1.4-251.26094.152",
+    "version": "2025.2-252.23892.452",
     "description": "Cross-Platform IDE for Rust by JetBrains.",
     "homepage": "https://www.jetbrains.com/rust/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.jetbrains.com/rustrover/RustRover-2025.1.4.exe#/dl.7z",
-            "hash": "b9609214dc2d65af397d8dbba2daa5927f8fb5031cf35edc625ad202e932f558"
+            "url": "https://download.jetbrains.com/rustrover/RustRover-2025.2.exe#/dl.7z",
+            "hash": "f4dba913b692c540a45b4a9c167ffb8465c2ba3ce9a5cce3dd3e96e4d281678e"
         },
         "arm64": {
-            "url": "https://download.jetbrains.com/rustrover/RustRover-2025.1.4-aarch64.exe#/dl.7z",
-            "hash": "204c235abe857b9d777db7618a7f377a610646a652f6efd23cc18edab7e7702e"
+            "url": "https://download.jetbrains.com/rustrover/RustRover-2025.2-aarch64.exe#/dl.7z",
+            "hash": "089078c4d310460c6364a74bbe4639b4928cfda96421289f925cae95cfd8162d"
         }
     },
     "extract_to": "IDE",

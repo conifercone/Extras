@@ -1,5 +1,5 @@
 {
-    "version": "2025.07.10509",
+    "version": "2025.08.10552",
     "description": "Cutting-edge Windows configuration tool",
     "homepage": "https://www.ntlite.com",
     "license": "Proprietary",
@@ -7,11 +7,11 @@
     "architecture": {
         "64bit": {
             "url": "https://downloads.ntlite.com/files/NTLite_setup_x64.exe",
-            "hash": "17c4b0b6c14d976a02a5d1f7916dfe1a1f9cb94deb091003a734189e8113f338"
+            "hash": "184b0992631e9854657042ec9c081061f58ea3f796ddd2b5843f387256782c61"
         },
         "32bit": {
             "url": "https://downloads.ntlite.com/files/NTLite_setup_x86.exe",
-            "hash": "a84d094cf973463a8965d0db668e49cb6559c2943c7ef7463b0d8bc882367738"
+            "hash": "c000891fc3d81141924b54746b55fbefb914c0b8c696e29272230303e2f3d6d6"
         }
     },
     "pre_install": [
