@@ -1,10 +1,10 @@
 {
-    "version": "7.19.4",
+    "version": "7.20.2",
     "description": "Mikrotik bandwidth test client and server for Windows",
     "homepage": "https://mikrotik.com/",
     "license": "Unknown",
-    "url": "https://download.mikrotik.com/routeros/7.19.4/btest.exe",
-    "hash": "f31b12221f38be807429098aa4988d4519a01b95cb7a2b5a4282445a6c90d6a8",
+    "url": "https://download.mikrotik.com/routeros/7.20.2/btest.exe",
+    "hash": "e82dc6d3e76fd891e94d270ae2d3f052faaf7084cc4e04f611954a8bee9e1244",
     "bin": "btest.exe",
     "shortcuts": [
         [

@@ -1,26 +1,26 @@
 {
-    "version": "25.7.28.0",
+    "version": "25.10.23.0",
     "description": "Sucrose is a versatile wallpaper engine that brings life to your desktop with a wide range of interactive wallpapers.",
     "homepage": "https://github.com/Taiizor/Sucrose",
     "license": "GPL-3.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/Taiizor/Sucrose/releases/download/v25.7.28.0/Sucrose_Bundle_.NET_Framework_4.8_x86_25.7.28.0.exe",
-            "hash": "607fba76771cac8a55838204c40de492c91502955c74bc1b22bea8d8a086f51f",
+            "url": "https://github.com/Taiizor/Sucrose/releases/download/v25.10.23.0/Sucrose_Bundle_.NET_Framework_4.8_x86_25.10.23.0.exe",
+            "hash": "8ec5ff559e5fa03033ca5c5d6ec16387d1e4b9556616400ff965faf54be33550",
             "installer": {
                 "script": "Start-Process \"$dir\\Sucrose_Bundle_.NET_Framework_4.8_x86_$version.exe\" -ArgumentList '/s' -Wait"
             }
         },
         "64bit": {
-            "url": "https://github.com/Taiizor/Sucrose/releases/download/v25.7.28.0/Sucrose_Bundle_.NET_Framework_4.8_x64_25.7.28.0.exe",
-            "hash": "094b64348d3bdfacab71cf9b8489e31b88e9210991d4273b8be45d55d6e1634d",
+            "url": "https://github.com/Taiizor/Sucrose/releases/download/v25.10.23.0/Sucrose_Bundle_.NET_Framework_4.8_x64_25.10.23.0.exe",
+            "hash": "753d0ca9fc12a29d5f0892a8b67a4d35bdead2f808d4dc21322a005fd260625b",
             "installer": {
                 "script": "Start-Process \"$dir\\Sucrose_Bundle_.NET_Framework_4.8_x64_$version.exe\" -ArgumentList '/s' -Wait"
             }
         },
         "arm64": {
-            "url": "https://github.com/Taiizor/Sucrose/releases/download/v25.7.28.0/Sucrose_Bundle_.NET_Framework_4.8_ARM64_25.7.28.0.exe",
-            "hash": "906803d356b9514029aa154ca9e5757a1f6d59bc11ce02bb8594fc683c3f858d",
+            "url": "https://github.com/Taiizor/Sucrose/releases/download/v25.10.23.0/Sucrose_Bundle_.NET_Framework_4.8_ARM64_25.10.23.0.exe",
+            "hash": "621fccac061c730b1e073a24bf73a7a5716d7600c7cbdb3e4d42c592b91723dd",
             "installer": {
                 "script": "Start-Process \"$dir\\Sucrose_Bundle_.NET_Framework_4.8_ARM64_$version.exe\" -ArgumentList '/s' -Wait"
             }

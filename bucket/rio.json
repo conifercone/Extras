@@ -1,26 +1,26 @@
 {
-    "version": "0.2.29",
+    "version": "0.2.32",
     "description": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers",
     "homepage": "https://github.com/raphamorim/rio",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/raphamorim/rio/releases/download/v0.2.29/Rio-portable-x86_64.exe#/rio.exe",
+                "https://github.com/raphamorim/rio/releases/download/v0.2.32/Rio-portable-x86_64.exe#/rio.exe",
                 "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
             ],
             "hash": [
-                "85563b279681dc47a839213572856079af7d0ccb848860c6a424521754384091",
+                "592e037197c5fc3d4d8dac18fb0416dd4bf2b915d985546126e8aefb8fce343a",
                 "df14ea18ec6cf01cc7709d4de0e14cfa0366b54fbbbee5e936be16db28b929cb"
             ]
         },
         "arm64": {
             "url": [
-                "https://github.com/raphamorim/rio/releases/download/v0.2.29/Rio-portable-aarch64.exe#/rio.exe",
+                "https://github.com/raphamorim/rio/releases/download/v0.2.32/Rio-portable-aarch64.exe#/rio.exe",
                 "https://raw.githubusercontent.com/raphamorim/rio/main/misc/windows/rio.ico"
             ],
             "hash": [
-                "2b4908f2ce97298405c7d1312adfde26b2ba5215902f3becbae510c35ebbe1a4",
+                "a91bb9b9a5856fc047856e0a7f0ddd514c6c1bf22d4a6ce8b24e57ded680558b",
                 "df14ea18ec6cf01cc7709d4de0e14cfa0366b54fbbbee5e936be16db28b929cb"
             ]
         }

@@ -1,12 +1,12 @@
 {
-    "version": "2.7.1",
+    "version": "2.7.44",
     "description": "All-in-one collaboration platform for API documentation, API debugging, API Mock and API test automation.",
     "homepage": "https://apifox.com",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://file-assets.apifox.com/download/2.7.1/Apifox-2.7.1.exe#/dl.7z",
-            "hash": "sha512:0c335d74d584fa58f6eabe8008aa08dfe2070710058198497c922d0a1e42ce28c21494f42d5bbab672bdc1407ff8b18aae2ebe62dd0fa20b40ce7dfc1b612c03"
+            "url": "https://file-assets.apifox.com/download/2.7.44/Apifox-2.7.44.exe#/dl.7z",
+            "hash": "sha512:1b7e64b3a569d7d489f29421267f08cb1f5073a9b9a223da802378488f9d3c3b7d94ce813b831645c6eb14f83beffac7f59c493c868cae48c5d9f9eebae8b661"
         }
     },
     "pre_install": [
@@ -26,8 +26,8 @@
         "Wait-Process -Name 'ApifoxAppAgent' -ErrorAction SilentlyContinue -Timeout 30"
     ],
     "checkver": {
-        "url": "https://apifox.com/help/app/changelog",
-        "regex": ">([\\d.]+)<"
+        "url": "https://docs.apifox.com/changelog",
+        "regex": ">([\\d.]+)<a"
     },
     "autoupdate": {
         "architecture": {
